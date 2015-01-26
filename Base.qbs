@@ -31,7 +31,7 @@ Product {
 
   Properties {
     condition: buildtools.osx || lbuildtools.inux
-    cpp.cxxFlags: base.concat( [ "-std=c++11", "-stdlib=libc++" ] )
+    cpp.cxxFlags: base.concat( [ "-std=c++1y", "-stdlib=libc++" ] )
   }
 
   Properties {
